@@ -40,15 +40,15 @@
           <h1 class="title is-1 publication-title">METU Colorectal Cancer Tumour Grade Segmentation Dataset</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              yazar 1,</span>
-            <span class="author-block">
+              Code, trained models and the dataset will be made available on this page</span>
+            <!-- span class="author-block">
               yazar 2,</span>
             <span class="author-block">
               yazar ...,
             </span>
             <span class="author-block">
               yazar N,
-            </span>
+	  </span -->
           </div>
 
           <div class="is-size-5 publication-authors">
@@ -134,8 +134,22 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id vehicula nisi. Nunc nec condimentum dolor, suscipit fringilla enim. Duis dapibus vel purus in faucibus. Curabitur porta eu lorem nec rutrum. Curabitur dolor lectus, imperdiet eget fringilla ut, rhoncus vel ex. Vestibulum pellentesque lorem quis risus laoreet sollicitudin. Mauris interdum lacus placerat, commodo augue et, venenatis arcu. Aliquam mattis, urna sit amet venenatis pharetra, urna est ultricies magna, sed tincidunt urna orci vel odio. Etiam leo orci, scelerisque at lacinia a, viverra in felis. Proin lacinia posuere nisl non fermentum. Sed iaculis tortor tortor, sed condimentum risus pharetra nec. Sed vulputate aliquet quam, quis vulputate purus aliquam a. Maecenas sollicitudin lectus ipsum, in ornare urna laoreet non. Donec sagittis, velit nec egestas pellentesque, odio nisi rhoncus ex, vitae tempus lorem urna eu magna. Duis lacinia ante et rutrum lacinia. Phasellus maximus scelerisque augue, et posuere ante rutrum in.
-        </div>
+	Routine   pathology   assessment   for   the   tumor   grading   is   currently   performed   under   the   microscope   by
+experienced pathologists which might be prone to interpersonal variability and requiring years of experience.
+Over the past decade, with the help of whole-slide scanning technology, it is now possible to generate whole-slide images. Indeed, this provides an opportunity to extract vision-based information latent in these images
+and automate and assist pathologists in their daily workflow. In this process, key machine learning algorithms
+have been developed enabling an automatic segmentation of pathology slides. Here, in this study, we present a
+novel dataset for Colorectal Cancer Tumor Grade Segmentation, which contains a total of 103 whole-slide
+images. The ground-truth annotations for these images were obtained from two independent pathologists. The
+annotations include pixelwise segmentation masks for “Grade-1”, “Grade-2”, “Grade-3” tumor classes, and
+“Normal-mucosa” for the normal class. To establish baseline results for this dataset, we trained and evaluated
+prominent convolutional neural network and transformer models. Our results show that SwinT, a transformer-based model, achieves 63% mean-dice score, outperforming other transformer-based models and all CNN based
+models, aligning with the recent success of transformer-based models in the field of computer vision. Most
+importantly, our new dataset addresses the absence of publicly available datasets for tumor segmentation.
+Taken together, the findings from our study indicate that integrating various deep neural network structures is
+promising at facilitating a more unbiased and consistent tumor grading of colorectal cancer using a novel
+dataset which would be available to other researchers upon request.	
+	</div>
       </div>
     </div>
     <!--/ Abstract. -->
